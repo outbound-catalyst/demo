@@ -5,7 +5,7 @@ description: Work one event end to end: build the list from partners, exhibitors
 
 # Event Playbook
 
-Run this per event. Read `config/icp.md`, `config/messages.md` and `config/tools.md` first. If `config/` does not exist, stop and run INSTALL.md.
+Run this per event. Read `config/icp.md`, `config/messages.md` and `config/tools.md` first. If any of these three files is missing, stop and run INSTALL.md.
 
 Why events work: the event gives you a reason to talk that is not a pitch, and saying yes to an invite costs the buyer nothing. The invite is the event, not a meeting.
 
@@ -19,14 +19,14 @@ Why events work: the event gives you a reason to talk that is not a pitch, and s
 
 ## Phase 0: Event brief
 
-Copy `templates/event-brief.md` to `data/<event-slug>/brief.md` and fill it in with the user: event, dates, city, what we invite people to, deadline for invites, owner.
+Copy `templates/event-brief.md` to `data/<event-slug>/brief.md` (slug: lowercase, hyphens, with the year, for example `web-summit-2027`; skip if the brief exists) and fill it in with the user: event, dates, city, what we invite people to, deadline for invites, owner.
 
 ## Phase 1: Build the list
 
 Pick the best source the event has, in this order:
 
 1. **Attendee list.** For a LinkedIn event: register, open the attendee list, copy the search URL from the browser (it contains `eventAttending=`), and run it through the LinkedIn tool. Paginate slowly. LinkedIn's basic search stops around 1,000 results.
-2. **Partners, sponsors and exhibitors.** Most conferences publish them. Pull the list from the website. Filter to companies that match the ICP (for example, SaaS only). This is the account list.
+2. **Partners, sponsors and exhibitors.** Most conferences publish them. Pull the list from the website. Keep only companies that match the ICP. At trade shows many exhibitors sell to your buyers rather than being your buyers, so check against tier A, not just the industry. This is the account list.
 3. **Speakers.** From the agenda page.
 4. **Engagers.** People who reacted to or commented on the event's announcement posts (Jungler, or the LinkedIn tool's post engagers).
 

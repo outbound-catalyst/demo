@@ -2,7 +2,7 @@
 
 This repo is a playbook for working one event to build pipeline. It is written for any coding agent.
 
-- First time here (no `config/` folder): read INSTALL.md and follow it.
+- First time here (no `config/icp.md`, `config/messages.md` or `config/tools.md`): read INSTALL.md and follow it.
 - To run the playbook for an event: read `.claude/skills/event-playbook/SKILL.md` and follow it.
 
 Rules that always apply:

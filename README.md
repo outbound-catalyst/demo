@@ -20,8 +20,10 @@ Nothing is sent without your approval. No lead data is written into this repo.
 Open your coding agent in an empty folder and paste this:
 
 ```
-Clone https://github.com/outbound-catalyst/demo into ./event-playbook, then read event-playbook/INSTALL.md and follow it step by step. Ask me the setup questions one at a time.
+Clone https://github.com/outbound-catalyst/demo into this folder (git clone <url> .), then read INSTALL.md and follow it step by step. Ask me the setup questions one at a time.
 ```
+
+Use a new, empty folder, not an existing project. If you cloned into a subfolder instead, restart your agent inside that folder so it picks up the playbook.
 
 No git? Download the repo as a zip, unzip it, open your agent in the folder and paste:
 

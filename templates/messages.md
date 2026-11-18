@@ -19,12 +19,14 @@ The agent drafts from this file. The user approves every message before it goes 
 
 **Cold email**
 - Greeting in the recipient's language if you know it, body in English (or your market's language).
-- 3 to 5 short sentences. The event or a useful resource is the offer, not a call.
+- 3 to 5 short sentences. The event or a useful resource is the offer, not a call. A short closing question like "Want the details?" is fine in email; the no yes/no rule is for LinkedIn DMs.
 - No links in the first email if you can avoid it. Offer to send instead.
 - 2 to 3 steps, 3 to 4 days apart, in the same thread. The last one closes the loop.
 - No guaranteed results, no invented numbers, no fake familiarity.
 
 ## Examples
+
+Placeholders only. Setup rewrites these around what the user sells. Never send these angles as is.
 
 **Connection note**
 > Hi {first_name}, saw you are going to {event}. I work on {your topic} with {your buyers}, would be good to be connected.
